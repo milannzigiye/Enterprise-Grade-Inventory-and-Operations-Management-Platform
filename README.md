@@ -1,10 +1,17 @@
 # 📦 Stock Management System
 
+> 📘 **Note:** This system is developed as part of our **Final Year Project** and also contributes to our **Final Exam assessment**. All code, documentation, and design submissions are managed through GitHub for review, correction, and collaboration.
+
+---
+
 ## 🔍 Introduction
 
 The **Stock Management System** is a full-stack web application created by our group as part of our college coursework. The main objective of this project is to build a system that allows businesses to manage their inventory and stock in a simple, fast, and organized way. The system keeps track of available products, orders, stock levels, customer interactions, and other important data needed for smooth day-to-day operations.
 
 This solution is designed specifically for **small to medium-sized businesses (SMBs)** that want to move away from manually updating spreadsheets or writing things down on paper. By moving their stock management process to a digital platform, businesses can reduce human error, save time, and make better decisions based on real-time information.
+
+<!-- ✅ ADD SYSTEM SCREENSHOTS HERE WHEN READY -->
+<!-- Example: ![Dashboard Screenshot](screenshots/dashboard.png) -->
 
 ---
 
@@ -14,10 +21,11 @@ The purpose of this project is not only to develop a working web application but
 
 ### Specific Goals:
 - ✅ Build a responsive stock management system.
-- ✅ Allow different user roles (Admin, Staff) to log in and perform actions.
+- ✅ Allow different user roles (Admin and permitted Staff) to log in and perform actions.
 - ✅ Add/edit/delete products and track their stock levels in real-time.
 - ✅ Manage and track customer orders and supplier purchases.
-- ✅ Store and display business data like revenue, sales, expenses, etc.
+- ✅ Generate real-time reports and data exports.
+- ✅ Implement basic system security, including password hashing and input validation.
 
 ---
 
@@ -26,34 +34,65 @@ The purpose of this project is not only to develop a working web application but
 ### Key Functional Modules:
 
 #### 1. User Authentication and Access Control
-- Role-based access (Admin, Staff).
-- Login and registration with secure credential handling.
+- Role-based access for **Admin** and **permitted Staff**.
+- Secure login and registration.
+- Passwords are hashed before being stored.
+- Basic form validations and user feedback messages for errors or incorrect inputs.
 
 #### 2. Dashboard
-- Total sales
-- Top-selling products
-- Low-stock alerts
-- Revenue and expense summaries
-- Mobile responsive layout
+- Overview of:
+  - Total sales
+  - Top-selling products
+  - Low-stock alerts
+  - Revenue and expenses
+- Fully responsive layout, works on mobile
 
 #### 3. Inventory Management
-- Product categories (Phones, Watches, Accessories)
-- Add/edit/remove products with full details
-- Image uploads
-- Real-time stock tracking and alerts
+- Add/edit/remove products (name, price, quantity, category, image)
+- Product categories: Phones, Watches, Accessories
+- Real-time stock quantity tracking with warning indicators for low stock
 
 #### 4. Order Management
-- Customer and purchase orders
-- Order status (Pending, Shipped, Completed)
-- Track items, quantities, and customer information
+- Handle both customer and supplier orders
+- View and update order statuses (Pending, Shipped, Completed)
+- Order history tracking and search by order details
 
 #### 5. Reporting and Statistics
-- Revenue vs. expenses
-- Inventory trends
-- Customer activity logs
+- Real-time visual and tabular reports:
+  - Total revenue
+  - Total expenses
+  - Inventory movement
+  - Order frequency
+- Supports filtering (e.g., by date or product category) where applicable
+- Reports can be exported (e.g., CSV, Excel, PDF)
 
 #### 6. Mobile View
-- Streamlined dashboard for smartphones
+- Optimized view for smartphones
+- Clean, focused layout for small screens
+
+---
+
+## 🔄 CRUD Functionality
+
+This system fully supports **CRUD operations** across all major modules:
+
+### 📦 Inventory Module
+- **Create** new product entries
+- **Read** and search all current inventory
+- **Update** existing product details (price, image, stock quantity)
+- **Delete** discontinued items
+
+### 📃 Orders Module
+- **Create** orders
+- **Read** order records with filters
+- **Update** order status and contents
+- **Delete** test/duplicate/canceled orders
+
+### 👤 User Accounts (Admin-Only)
+- **Create** new users with staff roles
+- **Read** and list user accounts
+- **Update** credentials and roles
+- **Delete** users when no longer needed
 
 ---
 
@@ -75,45 +114,38 @@ The purpose of this project is not only to develop a working web application but
 ## 🔗 API Integration
 
 - RESTful Web APIs
-- Used for data access between frontend and backend
+- Used to connect frontend and backend operations
 - Supports:
-  - Retrieving inventory items
-  - Placing orders
-  - Updating stock
-  - Fetching reports
+  - Inventory data retrieval and update
+  - Order creation and tracking
+  - Report generation and export
 
 ---
 
-## 👨‍👩‍👧‍👦 Target Users
+## 📊 Entity Relationship Diagram (ERD)
 
-This system is designed for:
-- Small to medium-sized shops (tech, accessories, etc.)
-- Office and warehouse inventory teams
-- Local distributors and supply chain handlers
-- Community retail businesses
+<!-- ✅ ADD ERD DIAGRAM IMAGE OR LINK HERE WHEN READY -->
+<!-- Example: ![ERD](docs/ERD.png) -->
 
----
-
-## 🔄 GitHub Workflow
-
-We are using GitHub to manage this project collaboratively:
-- **Branching strategy:** feature branches, `dev`, `main`
-- **Pull Requests:** All updates go through PRs
-- **Issues and Tasks:** Tracked via GitHub Issues
-- **Commit Messages:** Clear and consistent format
-- **Code Reviews:** Each PR is reviewed before merging
+If not already designed, the ERD will visually represent the relationship between key database tables such as:
+- Users
+- Products
+- Orders
+- Order Items
+- Categories
 
 ---
 
-## 🔮 Future Enhancements
+## ⚙️ Setup Instructions
 
-- 📷 Barcode scanning support
-- 🔔 Notifications for low stock or pending orders
-- 📤 Export reports as PDF/Excel
-- 🌐 Multilingual language support
-- 📡 Integration with external systems (eCommerce, POS)
-- 🧠 Analytics using Machine Learning (e.g., sales forecasting)
+To run the system locally on your machine:
 
----
+### Prerequisites:
+- Visual Studio 2022 (with ASP.NET and .NET Core workloads)
+- SQL Server 2014 or later
+- .NET SDK installed (version matching the project)
 
-> This project is part of a college group assignment. It simulates real-world software development practices using C#, ASP.NET, Web APIs, and SQL Server, with version control and collaboration done entirely through GitHub.
+### Steps:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-group/stock-management-system.git
