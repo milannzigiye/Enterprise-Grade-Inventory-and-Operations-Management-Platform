@@ -1,178 +1,130 @@
-# 🚀 Enterprise-Grade Stock and Operations Management System  
-### Multi-Channel Inventory Control with Analytics, GPS, and AI Support
+# InvenTrack Pro
+
+**Enterprise-Grade Inventory & Operations Management Platform**
 
 ---
 
-> **Note:** This system is developed as part of our **Final Year Project** and also contributes to our **Final Exam assessment**. The project simulates enterprise-level software built to handle real-world inventory challenges across multi-branch businesses. All development and collaboration are managed through GitHub.
+## 📌 Project Overview
+
+InvenTrack Pro is a modular, enterprise-level system built to handle end-to-end inventory, warehouse, supplier, and customer operations. Designed for scale, it supports real-time analytics, mobile interaction, third-party integrations, and intelligent forecasting—all in a secure and cloud-ready environment.
 
 ---
 
-## 📊 Project Overview
+## ⚙️ Technology Stack
 
-This platform is a fully integrated inventory and operations system that empowers businesses to manage products, warehouses, orders, and analytics across multiple locations and user roles.
-
-It includes:
-- **A manager/admin interface** for backend operations, inventory control, supplier handling, and reporting.
-- **A customer interface** for browsing, ordering, tracking, and interacting with AI-powered support.
-- **Intelligent components** like a chatbot for assistance and GPS mapping for delivery tracking.
-- **Third-party connectivity** to allow integration with email systems, SMS gateways, and potentially online stores.
-
-### Admin Dashboard (Preview)
-> The main dashboard offers real-time KPIs including sales, low-stock alerts, order summaries, and financial analytics.
-
-![Admin Dashboard Screenshot](...)
-
-### Inventory Management View
-> Managers can add, edit, or track stock levels across different warehouses, with real-time quantity adjustments and category-based filtering.
-
-![Inventory Management Screenshot](...)
-
-### Customer Order Flow
-> Customers can view products by category, add items to cart, and place orders. Orders can then be tracked via GPS-enabled delivery views.
-
-![Customer Order Flow Screenshot](...)
+- **Backend:** ASP.NET Core 7.0 / 8.0
+- **Frontend:** Blazor WebAssembly or React.js + .NET Web API
+- **Database:** SQL Server 2019 / 2022 + Entity Framework Core (EF Core 7/8)
+- **Authentication:** ASP.NET Identity + JWT
+- **Cloud Hosting:** Azure App Service + Azure SQL
+- **DevOps & CI/CD:** Azure DevOps Pipelines
+- **Real-Time Features:** SignalR, Event-Driven Architecture
+- **Architecture Patterns:** Microservices, CQRS, Repository + Unit of Work, Specification Pattern, API Gateway, Service Mesh
+- **Performance Tools:** Redis Caching, Lazy Loading, Query Optimization
+- **Security:** GDPR-compliant, encrypted data (in transit & at rest), retention enforcement
 
 ---
 
+## 📦 Core Modules and Features
 
-## 📝 Project Description
+### 1. **Warehouse Management**
+- Real-time inventory tracking
+- Barcode/QR/RFID support
+- Visual warehouse mapper (drag-and-drop)
+- Warehouse → Zone → Aisle → Rack → Bin hierarchy
+- Space optimization analytics
+- Worker shift planning, task assignment, geofenced check-in/out
+- Performance dashboards for workers
 
-The system is a web-based platform designed to handle complex stock and operations management requirements for growing businesses. Unlike basic inventory tools, this solution is built for multi-branch coordination and role-specific interaction.
+### 2. **Product Management**
+- Full SKU and variant tracking
+- Category and attribute mapping
+- Batch/lot and serial tracking
+- Expiry management, reorder automation, stock alerts
+- Inventory valuation via FIFO, LIFO, FEFO
+- Product lifecycle tracking and profitability analysis
 
-It introduces:
-- **Dynamic stock tracking**
-- **Real-time order and delivery monitoring**
-- **Automated reporting tools**
-- **AI support (via chatbot)**
-- **User-specific dashboards**
-- **Secure and modular architecture**
+### 3. **Supplier Management**
+- Supplier self-service portal
+- Quotation tools, delivery scheduling, quality tracking
+- PO automation, payment status, and historical pricing
+- On-time delivery and performance scoring
+- Volume discount calculators
 
-It is aimed at SMEs, warehouse hubs, logistics teams, and multi-outlet stores seeking control, insight, and scalability.
+### 4. **Customer Experience**
+- Mobile/web portals
+- Wishlist, favorites, and order history
+- Loyalty program: tiered membership, points, exclusive deals
+- AI chatbot and real-time product availability
+- Notifications via SMS/email and feedback/review systems
 
----
+### 5. **Order Management**
+- Unified order hub (POS, eCommerce, mobile)
+- Automated routing, route and packing optimization
+- Split shipment and delivery tracking
+- Driver mobile app with proof of delivery capture
+- Return workflows and refund/exchange tracking
 
-## 🧩 Key System Modules
+### 6. **User & Access Management**
+- Role-Based Access Control (RBAC)
+- 2FA, Single Sign-On (SSO)
+- Full audit logs and activity tracking
+- Multi-tenancy with white-label support
+- Admin dashboard with system health, alerts, backups
 
-### 🔐 Manager/Admin Interface
-- Personalized dashboards showing performance insights
-- Warehouse and product inventory control
-- Supplier database and purchase order generation
-- Analytics and financial reporting
-- Email/SMS notifications setup
-- ChatBot integration for operational queries
-- Delivery route monitoring via GPS
-- User and role management
+### 7. **Analytics & Business Intelligence**
+- Custom dashboards with drill-down KPIs
+- Forecasting (demand, trends, stock-outs)
+- Inventory valuation, cost of goods sold, cash flow projection
+- Sales and inventory performance reports
 
-### 🛍️ Customer Interface
-- Product catalog with filtering
-- Cart management and checkout system
-- Order tracking with live updates
-- ChatBot assistant for product support
-- Downloadable receipts and invoice previews
-- GPS-powered delivery updates
-
----
-
-## ✅ Core Features
-
-| Category              | Key Features |
-|-----------------------|--------------|
-| **Inventory Control** | Add/edit/delete items, track stock in multiple warehouses |
-| **User Roles**        | Admin, Staff, Customer, Auditor (permissions-based) |
-| **Order Management**  | Customer orders, supplier purchases, tracking, and status |
-| **Security**          | Password hashing, role validation, SQL injection prevention |
-| **Reporting**         | Exportable reports (CSV, Excel, PDF), custom filters |
-| **ChatBot Integration** | NLP-based assistant available on both interfaces |
-| **GPS Integration**   | Visual route mapping, branch locator, live tracking |
-| **Third-Party APIs**  | Email gateway, SMS alerts, optional eCommerce sync |
-
----
-
-## 🛠️ Tech Stack
-
-| Layer         | Tools/Technologies                          |
-|---------------|---------------------------------------------|
-| **Frontend**  | Razor Pages, HTML5, CSS3, Bootstrap 5        |
-| **Backend**   | ASP.NET Core Web API, C#                    |
-| **Database**  | Microsoft SQL Server (2014+)                |
-| **ORM**       | Entity Framework                            |
-| **IDE**       | Visual Studio 2022                          |
-| **DevOps**    | Git + GitHub for version control            |
-| **Documentation & APIs** | Swagger, XML comments, API explorer |
-| **Integrations** | Google Maps API (GPS), Dialogflow/Bot Framework, SMTP API |
+### 8. **Integration Ecosystem**
+- **E-commerce:** Shopify, WooCommerce, Magento, Amazon, eBay
+- **Accounting:** QuickBooks, Xero, Sage
+- **Shipping:** FedEx, UPS, DHL with rate shopping and label generation
+- Sync logs, error tracking, and automated journal entries
 
 ---
 
-## ⚙️ Setup Instructions
+## 🚧 Development Roadmap
 
-To get the system running locally for development, testing, or demonstration, follow the steps below:
+### **Phase 1: Core Infrastructure**
+- Database schema, base API framework
+- Authentication and authorization system
 
-### ✅ Requirements
-- Visual Studio 2022 (with .NET Core & ASP.NET workloads)
-- Microsoft SQL Server 2014 or later
-- .NET 6 SDK or higher
-- Git installed on your machine
+### **Phase 2: Essential Modules**
+- Product, inventory, warehouse, supplier/customer setup
 
+### **Phase 3: Operational Features**
+- Order processing, fulfillment, return management
+- Core analytics and reporting
 
-📈 Reporting Example Screenshots
+### **Phase 4: Advanced Capabilities**
+- Predictive models, external integrations, mobile apps
 
-The system includes a comprehensive reporting engine that converts raw business data into visual insights. Below are examples of the types of reports users can generate.
+---
 
-Revenue & Sales Trend Report
+## 🗃️ Database & Entity Design
 
-Displays total revenue over time, top-selling products, and peak sales periods for better marketing decisions.
+InvenTrack Pro contains over **60 normalized entities** across 8 domains:
 
-![Revenue and Sales Report](...)
+- **User Management:** Roles, permissions, audit logs, profiles
+- **Warehouse Domain:** Warehouse, zones, locations, workers, shifts, tasks
+- **Product Domain:** Products, variants, categories, attributes, inventory, transactions
+- **Supplier Domain:** Suppliers, POs, shipments, performance, pricing
+- **Customer Domain:** Profiles, memberships, wishlists, feedback
+- **Order Domain:** Orders, shipments, payments, returns, delivery records
+- **Analytics Domain:** KPI metrics, dashboards, predictive models
+- **Integration Domain:** API configs, sync logs, partner management
 
-Inventory Movement Report
+---
 
-Tracks all changes to inventory, such as restocking, low-stock alerts, and usage trends across all locations.
+## ✅ Development Practices & Success Factors
 
-![Inventory Movement Report](...)
-
-Customer Order Summary
-
-Summarizes order volumes, fulfillment statuses, return rates, and payment completion trends.
-
-![Customer Order Summary Report](...)
-
-⸻
-
-🧠 Use Cases
-
-1. Inventory Manager – Real-time Branch Replenishment
-
-Sarah, an inventory manager, logs in and sees that the Kigali branch is low on “Bluetooth Earbuds.” She uses the warehouse dashboard to transfer surplus stock from the Nyamirambo branch. The system updates inventory in real time and logs the transaction.
-
-2. Customer – Seamless Ordering and Delivery Tracking
-
-Jean browses products and places an order through the customer interface. After checkout, he receives an email confirmation and can track delivery through an interactive GPS map.
-
-3. Admin – Audit and Oversight
-
-David, the system admin, exports monthly supplier performance reports and verifies staff activity through the audit log. He uses these insights to brief upper management.
-
-4. ChatBot – 24/7 Self-Service Support
-
-A customer wants to know if a wristband is available in medium. Instead of waiting for staff, they ask the chatbot, which instantly provides the size options based on current inventory.
-
-5. General Manager – Data-Driven Decision Making
-
-Claire, a general manager, filters order fulfillment rates by branch. She notices delays in one region and adjusts that branch’s reorder threshold, preventing future bottlenecks.
-
-⸻
-
-✅ Final Notes
-
-This project demonstrates how academic learning can be translated into real-world, enterprise-level software systems. It integrates:
-	•	Modular system architecture
-	•	Secure user role management
-	•	Intelligent automation (ChatBot, notifications)
-	•	Location services (GPS tracking)
-	•	Multi-user, multi-interface design (Admin + Customer)
-
-All development was performed collaboratively using GitHub with proper version control, pull requests, and task assignment.
-
-For feedback, setup support, or demonstration requests, feel free to reach out via the repository Issues tab or contact a team member directly.
-
-Thank you for reviewing our final year project!
+- Microservice-oriented, modular architecture
+- CI/CD pipeline via Azure DevOps
+- Comprehensive unit & integration testing
+- Error handling and logging across modules
+- Containerization support with Docker
+- Documented code and architectural decisions
+- Clean UX with end-to-end workflow demos
