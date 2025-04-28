@@ -5,126 +5,118 @@
 ---
 
 ## 📌 Project Overview
-
-InvenTrack Pro is a modular, enterprise-level system built to handle end-to-end inventory, warehouse, supplier, and customer operations. Designed for scale, it supports real-time analytics, mobile interaction, third-party integrations, and intelligent forecasting—all in a secure and cloud-ready environment.
+InvenTrack Pro is a modular, scalable, and cloud-ready inventory and operations platform tailored for enterprise-level logistics. Built using the ASP.NET ecosystem, it provides real-time insights, customizable dashboards, mobile accessibility, and multi-role functionality, delivering a professional-grade experience aligned with modern development practices.
 
 ---
 
 ## ⚙️ Technology Stack
-
 - **Backend:** ASP.NET Core 7.0 / 8.0
 - **Frontend:** Blazor WebAssembly or React.js + .NET Web API
-- **Database:** SQL Server 2019 / 2022 + Entity Framework Core (EF Core 7/8)
-- **Authentication:** ASP.NET Identity + JWT
-- **Cloud Hosting:** Azure App Service + Azure SQL
+- **Database:** SQL Server 2019 / 2022 + Entity Framework Core
+- **Authentication:** ASP.NET Identity + JWT + Two-Factor Authentication (MFA)
+- **Real-Time:** SignalR + Event-Driven Architecture
 - **DevOps & CI/CD:** Azure DevOps Pipelines
-- **Real-Time Features:** SignalR, Event-Driven Architecture
-- **Architecture Patterns:** Microservices, CQRS, Repository + Unit of Work, Specification Pattern, API Gateway, Service Mesh
-- **Performance Tools:** Redis Caching, Lazy Loading, Query Optimization
-- **Security:** GDPR-compliant, encrypted data (in transit & at rest), retention enforcement
+- **Cloud Hosting:** Azure App Service + Azure SQL
+- **Architecture Patterns:** Microservices, Clean Architecture, CQRS, Repository + Unit of Work
 
 ---
 
-## 📦 Core Modules and Features
+## 🧠 Key Features
 
-### 1. **Warehouse Management**
-- Real-time inventory tracking
-- Barcode/QR/RFID support
-- Visual warehouse mapper (drag-and-drop)
-- Warehouse → Zone → Aisle → Rack → Bin hierarchy
-- Space optimization analytics
-- Worker shift planning, task assignment, geofenced check-in/out
-- Performance dashboards for workers
+### 🔐 Authentication & Authorization
+- Secure login with hashed passwords
+- Two-Factor Authentication (MFA)
+- Role-Based Access Control (RBAC) with fine-grained permissions
+- Single Sign-On (SSO) support
 
-### 2. **Product Management**
-- Full SKU and variant tracking
-- Category and attribute mapping
-- Batch/lot and serial tracking
-- Expiry management, reorder automation, stock alerts
-- Inventory valuation via FIFO, LIFO, FEFO
-- Product lifecycle tracking and profitability analysis
+### 📦 Core Modules
+1. **Warehouse Management**
+   - Live inventory tracking
+   - Visual warehouse mapping with drag & drop
+   - Barcode/QR & RFID integration
+2. **Product & Inventory**
+   - SKU, batch, and serial tracking
+   - Inventory valuation (FIFO/LIFO/FEFO)
+   - Reorder alerts and discrepancy reports
+3. **Supplier Management**
+   - Supplier portal with quote submission
+   - Purchase orders, delivery tracking, and analytics
+4. **Customer Experience**
+   - Customer portal + loyalty program
+   - Wishlist, order tracking, chatbot
+5. **Order Management**
+   - Multi-channel order hub
+   - Route optimization and GPS tracking
+6. **Analytics & BI**
+   - KPI dashboards, trend analysis, forecasting
+   - Exportable reports (PDF, Excel, CSV)
+7. **User & Admin Control**
+   - Live account lock/unlock
+   - Audit logs for user actions
+   - Notification preferences, theme & language customization
+8. **File Management**
+   - Encrypted uploads and secure downloads
+   - Expiring download links
+9. **System Maintenance**
+   - Automated database backups and restoration tools
+   
+---
 
-### 3. **Supplier Management**
-- Supplier self-service portal
-- Quotation tools, delivery scheduling, quality tracking
-- PO automation, payment status, and historical pricing
-- On-time delivery and performance scoring
-- Volume discount calculators
-
-### 4. **Customer Experience**
-- Mobile/web portals
-- Wishlist, favorites, and order history
-- Loyalty program: tiered membership, points, exclusive deals
-- AI chatbot and real-time product availability
-- Notifications via SMS/email and feedback/review systems
-
-### 5. **Order Management**
-- Unified order hub (POS, eCommerce, mobile)
-- Automated routing, route and packing optimization
-- Split shipment and delivery tracking
-- Driver mobile app with proof of delivery capture
-- Return workflows and refund/exchange tracking
-
-### 6. **User & Access Management**
-- Role-Based Access Control (RBAC)
-- 2FA, Single Sign-On (SSO)
-- Full audit logs and activity tracking
-- Multi-tenancy with white-label support
-- Admin dashboard with system health, alerts, backups
-
-### 7. **Analytics & Business Intelligence**
-- Custom dashboards with drill-down KPIs
-- Forecasting (demand, trends, stock-outs)
-- Inventory valuation, cost of goods sold, cash flow projection
-- Sales and inventory performance reports
-
-### 8. **Integration Ecosystem**
-- **E-commerce:** Shopify, WooCommerce, Magento, Amazon, eBay
-- **Accounting:** QuickBooks, Xero, Sage
-- **Shipping:** FedEx, UPS, DHL with rate shopping and label generation
-- Sync logs, error tracking, and automated journal entries
+## 📈 Advanced & Innovative Features
+- **Mobile-First Design + PWA Compatibility**
+- **Multi-Tenant Architecture with White-Label Support**
+- **Real-Time Search & Filtering**
+- **AI-Powered Chatbot for customer interactions**
+- **Drag-and-Drop UI components**
 
 ---
 
-## 🚧 Development Roadmap
-
-### **Phase 1: Core Infrastructure**
-- Database schema, base API framework
-- Authentication and authorization system
-
-### **Phase 2: Essential Modules**
-- Product, inventory, warehouse, supplier/customer setup
-
-### **Phase 3: Operational Features**
-- Order processing, fulfillment, return management
-- Core analytics and reporting
-
-### **Phase 4: Advanced Capabilities**
-- Predictive models, external integrations, mobile apps
+## 🛡️ Security & Compliance
+- End-to-end encryption (AES, RSA)
+- GDPR-compliant data handling
+- Retention policy enforcement
 
 ---
 
-## 🗃️ Database & Entity Design
-
-InvenTrack Pro contains over **60 normalized entities** across 8 domains:
-
-- **User Management:** Roles, permissions, audit logs, profiles
-- **Warehouse Domain:** Warehouse, zones, locations, workers, shifts, tasks
-- **Product Domain:** Products, variants, categories, attributes, inventory, transactions
-- **Supplier Domain:** Suppliers, POs, shipments, performance, pricing
-- **Customer Domain:** Profiles, memberships, wishlists, feedback
-- **Order Domain:** Orders, shipments, payments, returns, delivery records
-- **Analytics Domain:** KPI metrics, dashboards, predictive models
-- **Integration Domain:** API configs, sync logs, partner management
+## 🧱 Architecture Principles
+- Layered Clean Architecture (Controller → Service → Repository)
+- CQRS for command/query segregation
+- Repository + Unit of Work for clean data access
+- Event-driven communication with service mesh and API Gateway
 
 ---
 
-## ✅ Development Practices & Success Factors
+## 🚀 Setup Instructions
 
-- Microservice-oriented, modular architecture
-- CI/CD pipeline via Azure DevOps
-- Comprehensive unit & integration testing
-- Error handling and logging across modules
-- Containerization support with Docker
-- Documented code and architectural decisions
-- Clean UX with end-to-end workflow demos
+### ✅ Prerequisites
+- Visual Studio 2022 (ASP.NET & .NET Core workloads)
+- SQL Server 2014 or later
+- .NET SDK 6.0+
+- Git
+
+### 🛠️ Setup Steps
+```bash
+1. git clone https://github.com/milannzigiye/Enterprise-Grade-Inventory-and-Operations-Management-System.git
+2. Open the solution in Visual Studio 2022
+3. Restore NuGet packages
+4. Configure your database connection in `appsettings.json`
+5. Create the database via EF Core migrations or SQL script in /Database/
+6. Press F5 to run the project and launch in your browser
+```
+
+---
+
+## 🧪 Development Approach
+1. **Phase 1:** Database schema, auth system, base API
+2. **Phase 2:** Warehouse, product, and user modules
+3. **Phase 3:** Orders, suppliers, customer portals
+4. **Phase 4:** BI analytics, integration layer, mobile app
+
+---
+
+## 📌 Project Success Factors
+- Secure, encrypted, and modular
+- Professional UI/UX with responsive design
+- Test coverage and logging
+- Strong demo with end-to-end workflows
+- CI/CD + optional Dockerization for deployment
