@@ -120,3 +120,6 @@ InvenTrack Pro is a modular, scalable, and cloud-ready inventory and operations 
 - Test coverage and logging
 - Strong demo with end-to-end workflows
 - CI/CD + optional Dockerization for deployment
+- 
+## Prototype
+**Link**: ``` https://www.figma.com/design/a5jfDEsigc0BPqMgslORzb/Stock-Management-System?node-id=0-1&p=f&t=FcVfa2j7WYV4UDkC-0 ```
