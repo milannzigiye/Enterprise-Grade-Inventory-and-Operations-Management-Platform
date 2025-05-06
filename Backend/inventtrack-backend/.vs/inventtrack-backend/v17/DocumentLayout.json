@@ -1,37 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ELOHOME LTD\\Desktop\\dotnet-final\\Backend\\inventtrack-backend\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\elohome ltd\\desktop\\dotnet-final\\backend\\inventtrack-backend\\database\\dbomniflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\user\\desktop\\dotnet-final\\backend\\inventtrack-backend\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|solutionrelative:controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\user\\desktop\\dotnet-final\\backend\\inventtrack-backend\\repository\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|solutionrelative:repository\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\user\\desktop\\dotnet-final\\backend\\inventtrack-backend\\repository\\isupplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|solutionrelative:repository\\isupplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\user\\desktop\\dotnet-final\\backend\\inventtrack-backend\\service\\supplierservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|solutionrelative:service\\supplierservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\user\\desktop\\dotnet-final\\backend\\inventtrack-backend\\dtos\\suppliermgtdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|solutionrelative:dtos\\suppliermgtdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\user\\desktop\\dotnet-final\\backend\\inventtrack-backend\\model\\suppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|solutionrelative:model\\suppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\user\\desktop\\dotnet-final\\backend\\inventtrack-backend\\database\\dbomniflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|solutionrelative:database\\dbomniflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\elohome ltd\\desktop\\dotnet-final\\backend\\inventtrack-backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\user\\desktop\\dotnet-final\\backend\\inventtrack-backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\elohome ltd\\desktop\\dotnet-final\\backend\\inventtrack-backend\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\user\\desktop\\dotnet-final\\backend\\inventtrack-backend\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|solutionrelative:repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\elohome ltd\\desktop\\dotnet-final\\backend\\inventtrack-backend\\service\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\user\\desktop\\dotnet-final\\backend\\inventtrack-backend\\service\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|solutionrelative:service\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\elohome ltd\\desktop\\dotnet-final\\backend\\inventtrack-backend\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\user\\desktop\\dotnet-final\\backend\\inventtrack-backend\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|solutionrelative:repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\elohome ltd\\desktop\\dotnet-final\\backend\\inventtrack-backend\\inventtrack-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\user\\desktop\\dotnet-final\\backend\\inventtrack-backend\\inventtrack-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|solutionrelative:inventtrack-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\elohome ltd\\desktop\\dotnet-final\\backend\\inventtrack-backend\\dtos\\usermgtdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\user\\desktop\\dotnet-final\\backend\\inventtrack-backend\\dtos\\usermgtdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|solutionrelative:dtos\\usermgtdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\elohome ltd\\desktop\\dotnet-final\\backend\\inventtrack-backend\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|c:\\users\\user\\desktop\\dotnet-final\\backend\\inventtrack-backend\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AAA5D07-2436-441A-A175-0B1E8B153364}|inventtrack-backend.csproj|solutionrelative:model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,49 +66,121 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SupplierController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "Controllers\\SupplierController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T17:34:33.113Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\ELOHOME LTD\\Desktop\\dotnet-final\\Backend\\inventtrack-backend\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\ELOHOME LTD\\Desktop\\dotnet-final\\Backend\\inventtrack-backend\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "SupplierRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Repository\\SupplierRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SupplierRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Repository\\SupplierRepository.cs",
+              "RelativeToolTip": "Repository\\SupplierRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAD4vycAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T17:09:53.938Z",
+              "WhenOpened": "2025-05-06T17:32:26.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ISupplierRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Repository\\ISupplierRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ISupplierRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Repository\\ISupplierRepository.cs",
+              "RelativeToolTip": "Repository\\ISupplierRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T17:31:28.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserServices.cs",
-              "DocumentMoniker": "C:\\Users\\ELOHOME LTD\\Desktop\\dotnet-final\\Backend\\inventtrack-backend\\Service\\UserServices.cs",
-              "RelativeDocumentMoniker": "Service\\UserServices.cs",
-              "ToolTip": "C:\\Users\\ELOHOME LTD\\Desktop\\dotnet-final\\Backend\\inventtrack-backend\\Service\\UserServices.cs",
-              "RelativeToolTip": "Service\\UserServices.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwC8AAAAYAAAAAAAAAA==",
+              "Title": "SupplierServices.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Service\\SupplierServices.cs",
+              "RelativeDocumentMoniker": "Service\\SupplierServices.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Service\\SupplierServices.cs",
+              "RelativeToolTip": "Service\\SupplierServices.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T17:07:22.432Z",
+              "WhenOpened": "2025-05-06T17:29:38.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "SupplierMgtDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\DTOs\\SupplierMgtDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\SupplierMgtDTO.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\DTOs\\SupplierMgtDTO.cs",
+              "RelativeToolTip": "DTOs\\SupplierMgtDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T17:27:40.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Suppliers.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Model\\Suppliers.cs",
+              "RelativeDocumentMoniker": "Model\\Suppliers.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Model\\Suppliers.cs",
+              "RelativeToolTip": "Model\\Suppliers.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwPQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T17:27:01.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T17:09:53.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Service\\UserServices.cs",
+              "RelativeDocumentMoniker": "Service\\UserServices.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Service\\UserServices.cs",
+              "RelativeToolTip": "Service\\UserServices.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwC8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T17:07:22.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "DbOmniflow.cs",
-              "DocumentMoniker": "C:\\Users\\ELOHOME LTD\\Desktop\\dotnet-final\\Backend\\inventtrack-backend\\Database\\DbOmniflow.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Database\\DbOmniflow.cs",
               "RelativeDocumentMoniker": "Database\\DbOmniflow.cs",
-              "ToolTip": "C:\\Users\\ELOHOME LTD\\Desktop\\dotnet-final\\Backend\\inventtrack-backend\\Database\\DbOmniflow.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Database\\DbOmniflow.cs",
               "RelativeToolTip": "Database\\DbOmniflow.cs",
               "ViewState": "AgIAAFkAAACA/v////8hwA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -93,68 +189,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ELOHOME LTD\\Desktop\\dotnet-final\\Backend\\inventtrack-backend\\Repository\\IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Repository\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\ELOHOME LTD\\Desktop\\dotnet-final\\Backend\\inventtrack-backend\\Repository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Repository\\IUserRepository.cs",
               "RelativeToolTip": "Repository\\IUserRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAABAvQwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T17:01:23.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T17:01:23.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ELOHOME LTD\\Desktop\\dotnet-final\\Backend\\inventtrack-backend\\Repository\\UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\ELOHOME LTD\\Desktop\\dotnet-final\\Backend\\inventtrack-backend\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Repository\\UserRepository.cs",
               "RelativeToolTip": "Repository\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAA9v////8vwJEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T17:00:32.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T17:00:32.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "UserMgtDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ELOHOME LTD\\Desktop\\dotnet-final\\Backend\\inventtrack-backend\\DTOs\\UserMgtDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\DTOs\\UserMgtDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\UserMgtDTO.cs",
-              "ToolTip": "C:\\Users\\ELOHOME LTD\\Desktop\\dotnet-final\\Backend\\inventtrack-backend\\DTOs\\UserMgtDTO.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\DTOs\\UserMgtDTO.cs",
               "RelativeToolTip": "DTOs\\UserMgtDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:59:51.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T16:59:51.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\ELOHOME LTD\\Desktop\\dotnet-final\\Backend\\inventtrack-backend\\Model\\Users.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Model\\Users.cs",
               "RelativeDocumentMoniker": "Model\\Users.cs",
-              "ToolTip": "C:\\Users\\ELOHOME LTD\\Desktop\\dotnet-final\\Backend\\inventtrack-backend\\Model\\Users.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\Model\\Users.cs",
               "RelativeToolTip": "Model\\Users.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:54:05.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T16:54:05.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "inventtrack-backend.csproj",
-              "DocumentMoniker": "C:\\Users\\ELOHOME LTD\\Desktop\\dotnet-final\\Backend\\inventtrack-backend\\inventtrack-backend.csproj",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\inventtrack-backend.csproj",
               "RelativeDocumentMoniker": "inventtrack-backend.csproj",
-              "ToolTip": "C:\\Users\\ELOHOME LTD\\Desktop\\dotnet-final\\Backend\\inventtrack-backend\\inventtrack-backend.csproj",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Dotnet-Final\\Backend\\inventtrack-backend\\inventtrack-backend.csproj",
               "RelativeToolTip": "inventtrack-backend.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-06T16:45:08.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T16:45:08.605Z"
             }
           ]
         }
