@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Backend"
+    "\\Backend",
+    "\\Backend\\inventtrack-backend",
+    "\\Backend\\inventtrack-backend\\Database"
   ],
-  "SelectedNode": "\\Backend",
+  "SelectedNode": "\\Backend\\inventtrack-backend\\Database\\ApplicationDbContext.cs",
   "PreviewInSolutionExplorer": false
 }
