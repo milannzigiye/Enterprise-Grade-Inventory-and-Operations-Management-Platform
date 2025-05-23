@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("inventtrack-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3199f9d1f8215fbe63468497a137f875f1d0e6d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a19f1550fbd7ceaff898e375ad6d8b8bbcd76df3")]
 [assembly: System.Reflection.AssemblyProductAttribute("inventtrack-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("inventtrack-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
