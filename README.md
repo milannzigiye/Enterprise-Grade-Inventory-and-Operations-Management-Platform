@@ -121,5 +121,7 @@ InvenTrack Pro is a modular, scalable, and cloud-ready inventory and operations 
 - Strong demo with end-to-end workflows
 - CI/CD + optional Dockerization for deployment
 - 
-## Prototype
-**Link**: ``` https://www.figma.com/design/a5jfDEsigc0BPqMgslORzb/Stock-Management-System?node-id=0-1&p=f&t=FcVfa2j7WYV4UDkC-0 ```
+## ERD
+
+![Mermaid Chart - Create complex, visual diagrams with text  A smarter way of creating diagrams -2025-05-23-110707](https://github.com/user-attachments/assets/b905d2dd-487a-4ce1-b20b-73eef9adf068)
+
