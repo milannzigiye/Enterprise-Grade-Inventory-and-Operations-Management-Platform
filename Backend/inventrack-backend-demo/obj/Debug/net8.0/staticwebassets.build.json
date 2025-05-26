@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "mxfPkwquHt2GfOxz1bSVUVVfMKDEu4Aj5Klm6FuPQxE=",
+  "Source": "inventrack-backend-demo",
+  "BasePath": "_content/inventrack-backend-demo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

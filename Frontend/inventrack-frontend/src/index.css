@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Updated CSS with new color palette */
+:root {
+  --primary: #A22C29;
+  /* Main accent color */
+  --primary-light: #D6A2A1;
+  /* Lighter variant */
+  --primary-dark: #7A1F1D;
+  /* Darker variant */
+  --neutral-light: #D6D5C9;
+  /* Light background */
+  --neutral-medium: #B9BAA3;
+  /* Secondary color */
+  --neutral-dark: #4A4A42;
+  /* Dark text */
+  --success: #4CAF50;
+  /* Green for success */
+  --warning: #FFC107;
+  /* Yellow for warning */
+  --error: #F44336;
+  /* Red for errors */
+  --info: #2196F3;
+  /* Blue for info */
+}
+
+/* Dark mode color palette */
+.dark {
+  --primary: #D6A2A1;
+  /* Lighter primary for dark mode */
+  --primary-light: #E8C5C4;
+  /* Even lighter variant */
+  --primary-dark: #A22C29;
+  /* Original primary as dark variant */
+  --neutral-light: #2A2A24;
+  /* Dark background */
+  --neutral-medium: #3A3A32;
+  /* Medium dark */
+  --neutral-dark: #E5E5E0;
+  /* Light text for dark mode */
+  --background: #1A1A16;
+  /* Main dark background */
+  --surface: #242420;
+  /* Surface color for cards */
+  --border: #3A3A32;
+  /* Border color */
+}
+
+/* Updated root styles with new colors */
+:root {
+  font-family: "Mona Sans", sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color-scheme: light;
+  color: var(--neutral-dark);
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dark mode root styles */
+.dark {
+  color-scheme: dark;
+  color: var(--neutral-dark);
+  background-color: var(--background);
+}
+
+/* Enhanced glass morphism with new palette */
+.glass-light {
+  background: rgba(214, 213, 201, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark .glass-light {
+  background: rgba(36, 36, 32, 0.85);
+  border: 1px solid rgba(58, 58, 50, 0.3);
+}
+
+/* Updated scrollbar to match palette */
+::-webkit-scrollbar-thumb {
+  background: var(--neutral-medium);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* Button enhancements */
+button {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+/* Card styling */
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.dark .card {
+  background: var(--surface);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.dark .card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Table styling */
+.table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table th {
+  background: var(--neutral-light);
+  color: var(--neutral-dark);
+  font-weight: 600;
+  padding: 12px 16px;
+}
+
+.table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--neutral-light);
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Dark mode table styling */
+.dark .table th {
+  background: var(--neutral-medium);
+  color: var(--neutral-dark);
+}
+
+.dark .table td {
+  border-bottom: 1px solid var(--border);
+  color: var(--neutral-dark);
+}
+
+.dark .table tr:hover {
+  background: var(--neutral-light);
+}
+
+/* Status badges */
+.badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.badge-success {
+  background-color: rgba(76, 175, 80, 0.1);
+  color: var(--success);
+}
+
+.badge-warning {
+  background-color: rgba(255, 193, 7, 0.1);
+  color: var(--warning);
+}
+
+.badge-error {
+  background-color: rgba(244, 67, 54, 0.1);
+  color: var(--error);
+}
+
+.badge-info {
+  background-color: rgba(33, 150, 243, 0.1);
+  color: var(--info);
+}
+
+/* Input styling */
+.input {
+  border: 1px solid var(--neutral-light);
+  border-radius: 8px;
+  padding: 10px 14px;
+  transition: all 0.2s ease;
+}
+
+.input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(162, 44, 41, 0.1);
+}
+
+/* Animation enhancements */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-out;
+}

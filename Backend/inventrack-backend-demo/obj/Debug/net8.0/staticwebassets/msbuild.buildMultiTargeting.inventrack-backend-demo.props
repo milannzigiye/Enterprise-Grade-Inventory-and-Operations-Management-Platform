@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\inventrack-backend-demo.props" />
+</Project>

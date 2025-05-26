@@ -1,6 +1,0 @@
-@inventtrack_backend_HostAddress = http://localhost:5114
-
-GET {{inventtrack_backend_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
